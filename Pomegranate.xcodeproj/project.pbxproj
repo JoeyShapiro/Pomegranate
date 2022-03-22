@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD938AA727EA349700039B8F /* PomegranateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD938AA627EA349700039B8F /* PomegranateApp.swift */; };
+		CD938AA927EA349700039B8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD938AA827EA349700039B8F /* ContentView.swift */; };
+		CD938AAB27EA349800039B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD938AAA27EA349800039B8F /* Assets.xcassets */; };
+		CD938AAE27EA349800039B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD938AAD27EA349800039B8F /* Preview Assets.xcassets */; };
+		CD938AB927EA349800039B8F /* PomegranateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD938AB827EA349800039B8F /* PomegranateTests.swift */; };
+		CD938AC327EA349800039B8F /* PomegranateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD938AC227EA349800039B8F /* PomegranateUITests.swift */; };
+		CD938AC527EA349800039B8F /* PomegranateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD938AC427EA349800039B8F /* PomegranateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD938AB527EA349800039B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD938A9B27EA349700039B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD938AA227EA349700039B8F;
+			remoteInfo = Pomegranate;
+		};
+		CD938ABF27EA349800039B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD938A9B27EA349700039B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD938AA227EA349700039B8F;
+			remoteInfo = Pomegranate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD938AA327EA349700039B8F /* Pomegranate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomegranate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD938AA627EA349700039B8F /* PomegranateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomegranateApp.swift; sourceTree = "<group>"; };
+		CD938AA827EA349700039B8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD938AAA27EA349800039B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD938AAD27EA349800039B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD938AAF27EA349800039B8F /* Pomegranate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pomegranate.entitlements; sourceTree = "<group>"; };
+		CD938AB427EA349800039B8F /* PomegranateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomegranateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD938AB827EA349800039B8F /* PomegranateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomegranateTests.swift; sourceTree = "<group>"; };
+		CD938ABE27EA349800039B8F /* PomegranateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomegranateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD938AC227EA349800039B8F /* PomegranateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomegranateUITests.swift; sourceTree = "<group>"; };
+		CD938AC427EA349800039B8F /* PomegranateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomegranateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD938AA027EA349700039B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938AB127EA349800039B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938ABB27EA349800039B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD938A9A27EA349700039B8F = {
+			isa = PBXGroup;
+			children = (
+				CD938AA527EA349700039B8F /* Pomegranate */,
+				CD938AB727EA349800039B8F /* PomegranateTests */,
+				CD938AC127EA349800039B8F /* PomegranateUITests */,
+				CD938AA427EA349700039B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD938AA427EA349700039B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD938AA327EA349700039B8F /* Pomegranate.app */,
+				CD938AB427EA349800039B8F /* PomegranateTests.xctest */,
+				CD938ABE27EA349800039B8F /* PomegranateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD938AA527EA349700039B8F /* Pomegranate */ = {
+			isa = PBXGroup;
+			children = (
+				CD938AA627EA349700039B8F /* PomegranateApp.swift */,
+				CD938AA827EA349700039B8F /* ContentView.swift */,
+				CD938AAA27EA349800039B8F /* Assets.xcassets */,
+				CD938AAF27EA349800039B8F /* Pomegranate.entitlements */,
+				CD938AAC27EA349800039B8F /* Preview Content */,
+			);
+			path = Pomegranate;
+			sourceTree = "<group>";
+		};
+		CD938AAC27EA349800039B8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD938AAD27EA349800039B8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD938AB727EA349800039B8F /* PomegranateTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD938AB827EA349800039B8F /* PomegranateTests.swift */,
+			);
+			path = PomegranateTests;
+			sourceTree = "<group>";
+		};
+		CD938AC127EA349800039B8F /* PomegranateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD938AC227EA349800039B8F /* PomegranateUITests.swift */,
+				CD938AC427EA349800039B8F /* PomegranateUITestsLaunchTests.swift */,
+			);
+			path = PomegranateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD938AA227EA349700039B8F /* Pomegranate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD938AC827EA349800039B8F /* Build configuration list for PBXNativeTarget "Pomegranate" */;
+			buildPhases = (
+				CD938A9F27EA349700039B8F /* Sources */,
+				CD938AA027EA349700039B8F /* Frameworks */,
+				CD938AA127EA349700039B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomegranate;
+			productName = Pomegranate;
+			productReference = CD938AA327EA349700039B8F /* Pomegranate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD938AB327EA349800039B8F /* PomegranateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD938ACB27EA349800039B8F /* Build configuration list for PBXNativeTarget "PomegranateTests" */;
+			buildPhases = (
+				CD938AB027EA349800039B8F /* Sources */,
+				CD938AB127EA349800039B8F /* Frameworks */,
+				CD938AB227EA349800039B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD938AB627EA349800039B8F /* PBXTargetDependency */,
+			);
+			name = PomegranateTests;
+			productName = PomegranateTests;
+			productReference = CD938AB427EA349800039B8F /* PomegranateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD938ABD27EA349800039B8F /* PomegranateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD938ACE27EA349800039B8F /* Build configuration list for PBXNativeTarget "PomegranateUITests" */;
+			buildPhases = (
+				CD938ABA27EA349800039B8F /* Sources */,
+				CD938ABB27EA349800039B8F /* Frameworks */,
+				CD938ABC27EA349800039B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD938AC027EA349800039B8F /* PBXTargetDependency */,
+			);
+			name = PomegranateUITests;
+			productName = PomegranateUITests;
+			productReference = CD938ABE27EA349800039B8F /* PomegranateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD938A9B27EA349700039B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CD938AA227EA349700039B8F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CD938AB327EA349800039B8F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CD938AA227EA349700039B8F;
+					};
+					CD938ABD27EA349800039B8F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CD938AA227EA349700039B8F;
+					};
+				};
+			};
+			buildConfigurationList = CD938A9E27EA349700039B8F /* Build configuration list for PBXProject "Pomegranate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD938A9A27EA349700039B8F;
+			productRefGroup = CD938AA427EA349700039B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD938AA227EA349700039B8F /* Pomegranate */,
+				CD938AB327EA349800039B8F /* PomegranateTests */,
+				CD938ABD27EA349800039B8F /* PomegranateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD938AA127EA349700039B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD938AAE27EA349800039B8F /* Preview Assets.xcassets in Resources */,
+				CD938AAB27EA349800039B8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938AB227EA349800039B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938ABC27EA349800039B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD938A9F27EA349700039B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD938AA927EA349700039B8F /* ContentView.swift in Sources */,
+				CD938AA727EA349700039B8F /* PomegranateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938AB027EA349800039B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD938AB927EA349800039B8F /* PomegranateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD938ABA27EA349800039B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD938AC527EA349800039B8F /* PomegranateUITestsLaunchTests.swift in Sources */,
+				CD938AC327EA349800039B8F /* PomegranateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD938AB627EA349800039B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD938AA227EA349700039B8F /* Pomegranate */;
+			targetProxy = CD938AB527EA349800039B8F /* PBXContainerItemProxy */;
+		};
+		CD938AC027EA349800039B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD938AA227EA349700039B8F /* Pomegranate */;
+			targetProxy = CD938ABF27EA349800039B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD938AC627EA349800039B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD938AC727EA349800039B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD938AC927EA349800039B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomegranate/Pomegranate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomegranate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.Pomegranate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD938ACA27EA349800039B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomegranate/Pomegranate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomegranate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.Pomegranate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD938ACC27EA349800039B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.PomegranateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomegranate.app/Contents/MacOS/Pomegranate";
+			};
+			name = Debug;
+		};
+		CD938ACD27EA349800039B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.PomegranateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomegranate.app/Contents/MacOS/Pomegranate";
+			};
+			name = Release;
+		};
+		CD938ACF27EA349800039B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.PomegranateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Pomegranate;
+			};
+			name = Debug;
+		};
+		CD938AD027EA349800039B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garden.PomegranateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Pomegranate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD938A9E27EA349700039B8F /* Build configuration list for PBXProject "Pomegranate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD938AC627EA349800039B8F /* Debug */,
+				CD938AC727EA349800039B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD938AC827EA349800039B8F /* Build configuration list for PBXNativeTarget "Pomegranate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD938AC927EA349800039B8F /* Debug */,
+				CD938ACA27EA349800039B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD938ACB27EA349800039B8F /* Build configuration list for PBXNativeTarget "PomegranateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD938ACC27EA349800039B8F /* Debug */,
+				CD938ACD27EA349800039B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD938ACE27EA349800039B8F /* Build configuration list for PBXNativeTarget "PomegranateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD938ACF27EA349800039B8F /* Debug */,
+				CD938AD027EA349800039B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD938A9B27EA349700039B8F /* Project object */;
+}
